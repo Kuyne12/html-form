@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <title>Payment Form</title>
+  <style>
+    .form-group {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    .form-group label {
+      flex: 0 0 150px;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Payment Form</h1>
+    <form>
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" class="form-control" id="name" placeholder="Enter your name">
+      </div>
+      <div class="form-group">
+        <label for="card">Card Number:</label>
+        <input type="text" class="form-control" id="card" placeholder="Enter your card number">
+      </div>
+      <div class="form-group">
+        <label for="expiry">Expiry Date:</label>
+        <input type="text" class="form-control" id="expiry" placeholder="Enter expiry date">
+      </div>
+      <div class="form-group">
+        <label for="cvv">CVV:</label>
+        <input type="text" class="form-control" id="cvv" placeholder="Enter CVV">
+      </div>
+      <div class="form-group">
+        <label for="amount">Amount:</label>
+        <input type="text" class="form-control" id="amount" placeholder="Enter amount">
+      </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+  </div>
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+
+</html>
